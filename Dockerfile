@@ -8,6 +8,6 @@ RUN apt install software-properties-common apt-transport-https wget
 RUN wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
 RUN add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 RUN apt update
-RUN apt install wget code git python3 -y
+RUN apt install wget code git python3 python3-pip -y
 
 

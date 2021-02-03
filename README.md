@@ -1,7 +1,7 @@
 # ubuntu-lxqt-vnc-vscode
 Docker Devtools Base Container - Ubuntu lxqt with vnc vscode git and python
 
-A useful development tools environment, using Dorowu/ubuntu-desktop-lxde-vnc as a base I've added vscode, wget, git and python3.<br>
+A useful development tools environment, using Dorowu/ubuntu-desktop-lxde-vnc as a base I've added vscode, wget, git, python3 and pip3.<br>
 Use as a base to build your own custom development tools/local developer environments that you can connect to via VNC.<br>
 <br>
 I recommend mapping a docker volume and mapping it to your /home/dev_user folder if you wish to persist things over restart of your container. Will link /code to ~/code for ease of use and being able to remain in your user folder context through-out your dev life cycle.<br>
